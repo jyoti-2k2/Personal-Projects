@@ -1,4 +1,4 @@
-# namste-react-revise
+# Swiggy Clone App
 
 # parcel
 - dev build
