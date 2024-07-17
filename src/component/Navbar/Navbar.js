@@ -22,7 +22,8 @@ const Navbar = () => {
 
     const onlineStatus = useOnlineStatus()
 
-    const cartItems = useSelector((store)=>store.cart.items)
+    const cartItems = useSelector((store)=>store.cart.cart)
+    console.log(cartItems)
     const [login, setLogin] = useState(false);
     
    

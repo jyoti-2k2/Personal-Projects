@@ -1,0 +1,17 @@
+
+.addIcon,.removeIcon{
+    border:2px solid grey !important;
+    color:grey;
+    border-radius: 5px;
+}
+.addIcon:hover{
+    border: 2px solid green !important;
+    color: green;
+}
+.removeIcon:hover{
+    border:2px solid red !important;
+    color: red;
+}
+.deleteIcon:hover{
+   color: red !important;
+}

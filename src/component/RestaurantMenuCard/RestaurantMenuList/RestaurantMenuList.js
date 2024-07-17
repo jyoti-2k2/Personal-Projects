@@ -46,7 +46,7 @@ const RestaurantMenuList = ({ item }) => {
                 </Box>
 
             </Box>
-            <hr />
+          
         </>
     )
 }

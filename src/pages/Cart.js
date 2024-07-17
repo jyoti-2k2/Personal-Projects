@@ -5,7 +5,7 @@ import CartContainer from "../component/CartContainer/CartContainer"
 
 const Cart = () => {
 
-    const cartItems = useSelector((store) => store.cart.items)
+    const cartItems = useSelector((store) => store.cart.cart)
    
     return (
         <CartContainer items={cartItems} />

@@ -3,17 +3,18 @@
     const cartSlice = createSlice({
         name: "cart",
         initialState : {
-            items:[]
+            cart:[]
         },
         reducers:{
             addItem:(state,action)=>{
-                state.items.push(action.payload)
+                state.cart.push(action.payload)
             },
-            removeItem:(state)=>{
-                state.items.pop()
+            removeItem:(state,action)=>{
+                state.cart = state.cart.filter((item)=>item.card.info.id !== action.payload)
+              
             },
             clearItems:(state)=>{
-                state.items.length=0
+                state.cart.length=0
             }
         }
     })
